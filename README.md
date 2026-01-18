@@ -13,7 +13,7 @@ This project demonstrates an end-to-end product analytics workflow:
 - Jupyter
 
 ## Project Question
-Does a redesigned onboarding flow improve 7-day user retention?
+Does a redesigned onboarding flow improve 7-day user retention? We analyze whether a redesigned onboarding flow improves 7-day retention in a SaaS product.
 
 ## How to Run
 1. Install dependencies
