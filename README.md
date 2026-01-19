@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project presents an end-to-end **product analytics and experimentation workflow**, covering event modeling in PostgreSQL, SQL-based metric definition, A/B test evaluation in Python, and product decision-making.
+This project presents an end-to-end product analytics and experimentation workflow, covering event modeling in PostgreSQL, SQL-based metric definition, A/B test evaluation in Python, and product decision-making.
 
-The goal is to replicate how product analytics and data science are applied in a real SaaS environment, from raw event data to a business recommendation.
+The goal is to replicate how product analytics and data science are applied in a real environment, from raw event data to a business recommendation.
 
 ---
 
@@ -16,7 +16,7 @@ Does a redesigned onboarding flow improve early user retention in a SaaS product
 
 ## Key Result
 
-The onboarding variant increased **7-day retention by +1.7 percentage points**, but the result did **not reach statistical significance at the 95% confidence level**, suggesting that the experiment may be underpowered.
+The onboarding variant increased 7-day retention by +1.7 percentage points, but the result did not reach statistical significance at the 95% confidence level, suggesting that the experiment may be underpowered.
 
 ---
 
@@ -38,21 +38,3 @@ The onboarding variant increased **7-day retention by +1.7 percentage points**, 
   - pandas  
   - statsmodels  
 - **Jupyter Notebooks** — reproducible analysis  
-
----
-
-## Repository Structure
-
-```text
-product-analytics-experiment/
-│
-├── README.md
-├── requirements.txt
-├── decision_memo.md
-│
-├── sql/
-│   ├── product_analytics.sql
-│   └── retention.sql
-│
-└── notebooks/
-    └── 04_ab_test.ipynb
