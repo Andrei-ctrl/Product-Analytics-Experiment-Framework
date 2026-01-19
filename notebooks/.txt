@@ -1,1 +1,2 @@
-
+git rm -- .txt
+git commit -m "remove 1 files"
