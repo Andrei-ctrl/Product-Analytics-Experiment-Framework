@@ -1,6 +1,7 @@
 pandas
 numpy
-matplotlib
-seaborn
+sqlalchemy
+psycopg2-binary
 statsmodels
+matplotlib
 jupyter
